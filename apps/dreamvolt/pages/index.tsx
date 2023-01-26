@@ -50,14 +50,14 @@ export function Index() {
         location="null"
       />
       <PhoneImage myPath="image/dreamwall1.png" type="phone" location="null" />
-      <HeaderThree color="orange">
-        Achieving your goals just got easier...
-      </HeaderThree>
       <Alink href="https://apps.apple.com/tt/app/dreamvolt/id1496737573">
         <UIImage myPath="btn-apple.png" type="button" location="null" />
       </Alink>
       <UIImage myPath="btn-google.png" type="button" location="null" />
       <HeaderFour color="grey">Android is coming soon..</HeaderFour>
+      <HeaderThree color="orange">
+        Achieving your goals just got easier...
+      </HeaderThree>
 
       <Arrowdown></Arrowdown>
       <HeaderOne>Dreamvolt Everyone</HeaderOne>

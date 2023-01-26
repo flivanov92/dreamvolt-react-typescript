@@ -18,16 +18,16 @@ export const BackgroundImage = styled.div<T.MyImage>`
   width: 50%;
   height: 480px;
   position: relative;
-  bottom: 200px;
-  left: 350px;
+  bottom: 50px;
+  left: 475px;
 `;
 export const PurpleBackground = styled.div<T.MyImage>`
   background-position-x: right;
   background-repeat: no-repeat;
   background-size: cover;
   background-image: url(${({ myPath }) => myPath});
-  width: 35%;
-  height: 400px;
+  width: 32%;
+  height: 500px;
   position: relative;
   left: 400px;
   bottom: 30px;
@@ -40,8 +40,8 @@ export const PhoneImage = styled.div<T.MyImage>`
   position: absolute;
   width: 20%;
   height: 50%;
-  left: 550px;
-  bottom: 100px;
+  left: 700px;
+  bottom: 20px;
 `;
 export const EvPhoneImage = styled.div<T.MyImage>`
   background-image: url(${({ myPath }) => myPath});
@@ -50,7 +50,7 @@ export const EvPhoneImage = styled.div<T.MyImage>`
   position: absolute;
   width: 20%;
   height: 50%;
-  left: 550px;
+  left: 715px;
   top: ${({ location }) => locationMap[location]};
   z-index: 20;
 `;
@@ -71,6 +71,6 @@ export const EvButton = styled.div<T.MyImage>`
   background-size: cover;
   background-image: url('/image/${({ myPath }) => myPath}');
   position: absolute;
-  left: 580px;
+  left: 750px;
   z-index: 20;
 `;
