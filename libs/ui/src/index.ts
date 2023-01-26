@@ -1,1 +1,1 @@
-export * from './lib/ui';
+export { default as Image } from './lib/image'
