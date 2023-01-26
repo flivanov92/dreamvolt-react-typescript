@@ -2,7 +2,7 @@ import styled from 'styled-components';
 import * as T from './image.type';
 
 const locationMap = {
-  bottom: '2300px',
+  bottom: '2200px',
   center: '1240px',
   null: '0',
 };
@@ -12,8 +12,7 @@ export const BackgroundImage = styled.div<T.MyImage>`
   background-repeat: no-repeat;
   background-size: cover;
   display: grid;
-  /* grid-template-columns: repeat(2, 1fr); */
-  /* grid-gap: 10px; */
+ 
   background-image: url(${({ myPath }) => myPath});
   width: 50%;
   height: 480px;
@@ -26,7 +25,7 @@ export const PurpleBackground = styled.div<T.MyImage>`
   background-repeat: no-repeat;
   background-size: cover;
   background-image: url(${({ myPath }) => myPath});
-  width: 32%;
+  width: 40%;
   height: 500px;
   position: relative;
   left: 400px;
