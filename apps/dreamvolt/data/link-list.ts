@@ -27,11 +27,5 @@ export const linkList: any = [
     linkType: 'normal',
     color: 'grey',
   },
-  {
-    title: 'mynav is cool',
-    destination: '/grefe',
-    text: 'media',
-    linkType: 'normal',
-    color: 'grey',
-  },
+  
 ];

@@ -2,8 +2,8 @@ import styled from 'styled-components';
 import * as T from './image.type';
 
 const locationMap = {
-  bottom: '2400px',
-  center: '1600px',
+  bottom: '2300px',
+  center: '1240px',
   null: '0',
 };
 
@@ -16,20 +16,20 @@ export const BackgroundImage = styled.div<T.MyImage>`
   /* grid-gap: 10px; */
   background-image: url(${({ myPath }) => myPath});
   width: 50%;
-  height: 800px;
+  height: 480px;
   position: relative;
-  bottom: 250px;
-  left: 500px;
+  bottom: 200px;
+  left: 350px;
 `;
 export const PurpleBackground = styled.div<T.MyImage>`
   background-position-x: right;
   background-repeat: no-repeat;
   background-size: cover;
   background-image: url(${({ myPath }) => myPath});
-  width: 22%;
+  width: 35%;
   height: 400px;
   position: relative;
-  left: 800px;
+  left: 400px;
   bottom: 30px;
 `;
 
@@ -38,19 +38,19 @@ export const PhoneImage = styled.div<T.MyImage>`
   background-repeat: no-repeat;
   margin-left: 30px;
   position: absolute;
-  width: 11%;
-  height: 42%;
-  left: 930px;
-  bottom: 200px;
+  width: 20%;
+  height: 50%;
+  left: 550px;
+  bottom: 100px;
 `;
 export const EvPhoneImage = styled.div<T.MyImage>`
   background-image: url(${({ myPath }) => myPath});
   background-repeat: no-repeat;
   margin-left: 30px;
   position: absolute;
-  width: 11%;
-  height: 42%;
-  left: 930px;
+  width: 20%;
+  height: 50%;
+  left: 550px;
   top: ${({ location }) => locationMap[location]};
   z-index: 20;
 `;
@@ -71,6 +71,6 @@ export const EvButton = styled.div<T.MyImage>`
   background-size: cover;
   background-image: url('/image/${({ myPath }) => myPath}');
   position: absolute;
-  left: 965px;
+  left: 580px;
   z-index: 20;
 `;
